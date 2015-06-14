@@ -1,0 +1,3 @@
+#!/bin/sh -eux
+
+exec /opt/local/bin/redis-server /redis.conf
