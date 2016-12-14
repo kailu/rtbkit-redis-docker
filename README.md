@@ -2,11 +2,11 @@
 ======
 
 ```
-sudo docker build -t onokonem/rtbkit-redis https://github.com/onokonem/rtbkit-redis-docker.git
+sudo docker build -t kailu/rtbkit-redis https://github.com/kailu/rtbkit-redis-docker.git
 
 sudo docker run \
   -d --net=host \
   -v /storage/docker/redis/data:/redis-data \
   -p 6379:6379 \
-  onokonem/rtbkit-redis
+  kailu/rtbkit-redis
 ```
